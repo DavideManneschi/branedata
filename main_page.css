@@ -1,0 +1,270 @@
+
+body,html{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.braneData_header{
+
+    background-color: #242582;
+    width: 100%;
+    height: 150px;
+}
+
+.links_navigator_container{
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.container_links_right,.container_links_left{
+
+    margin:30px
+}
+.container_links_left a ,.container_links_right a {
+
+    font-weight: bold;
+    margin: 30px;
+    font-size: 30px;
+
+
+    color: rgb(251, 106, 12);
+    text-decoration: none;
+
+}
+
+.container_links_right a:hover{
+    text-decoration: underline ;
+}
+
+.braneData_upper_component{
+    background-color: #242582;
+    height: 700px;
+
+}
+
+
+
+.braneData_upper_component{
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap:50px
+
+}
+
+.upper_component_left,.upper_component_right{
+
+    color: white;
+    margin-top:100px
+}
+
+
+.braneData_button_navigation_upper_component{
+
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: center;
+    color: white;
+
+
+
+}
+
+
+
+.main_header{
+
+    font-size: 50px;
+
+}
+
+.first_subheader{
+    font-size: 35px;
+
+}
+.second_subheader{
+    font-size: 20px;
+
+}
+.single_button_upper_component_article{
+
+    background: radial-gradient(circle at 10% 20%, rgb(251, 106, 12) 0%, rgb(193, 11, 135) 97.4%);
+    color: white;
+    border: none;
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    font-weight: bold;
+
+
+
+}
+
+.single_button_upper_component  {
+    font-size: 24px;
+
+
+}
+
+.single_button_upper_component:hover{
+    cursor: pointer;
+}
+
+
+.central_body_upper{
+
+    justify-content: center;
+    text-align: center;
+}
+.main_header_featured_articles_1,.main_header_featured_articles_2{
+    margin-top: 40px;
+    color: #242582;
+
+
+}
+
+.single_featured_articles_container{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: center;
+
+
+}
+
+.single_article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    height:400px;
+    margin: 50px;
+    border: 2px solid red;
+}
+
+
+.main_header_featured_articles_1:after { /* this is the border */
+    content:"";
+    display:block;
+    width: 20em;
+    max-width:70%;
+    border-bottom: 0.3em solid rgb(251, 106, 12) ;
+    margin: 2em auto 0;
+}
+
+
+.main_header_featured_articles_2:after {
+    content:"";
+    display:block;
+    width: 20em;
+    max-width:70%;
+    border-bottom:  0.3em solid rgb(193, 11, 135);
+    margin: 2em auto 0;
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+    .gfg-div {
+        background-color: #63c971;
+        color: #fff;
+    }
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+    .gfg-div {
+        width: 400px;
+        height: 400px;
+        background-color: orange;
+        color: black;
+    }
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+    .gfg-div {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        color: #fff;
+    }
+}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px)
+and (orientation: landscape) {
+    .gfg-div {
+        width: 400px;
+        height: 200px;
+        background-color: cyan;
+        color: black;
+    }
+}
+
+/* For Mobile Phones Portrait or Landscape View */
+@media screen
+and (max-device-width: 640px) {
+    .gfg-div {
+        width: 400px;
+        height: 200px;
+        background-color: chartreuse;
+        color: black;
+    }
+}
+
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (min-device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .gfg-div {
+        width: 400px;
+        height: 400px;
+        background-color: brown;
+        color: black;
+    }
+}
+
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px)
+and (device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .gfg-div {
+        width: 400px;
+        height: 400px;
+        background-color: cornflowerblue;
+        color: black;
+    }
+}
+
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px)
+and (min-device-width: 375px)
+and (-webkit-min-device-pixel-ratio: 3) {
+    .gfg-div {
+        width: 400px;
+        height: 400px;
+        background-color: darkgoldenrod;
+        color: black;
+    }
+}
