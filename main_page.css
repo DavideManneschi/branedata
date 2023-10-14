@@ -255,6 +255,21 @@ body,html{
 
 }
 
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+li {
+    display: flex;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    flex: 1 100%;
+
+}
+
 @media screen and (min-width: 1024px) {
     .gfg-div {
         background-color: #63c971;
