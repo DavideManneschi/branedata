@@ -132,6 +132,11 @@ body,html{
 
 }
 
+.explore_button_preview{
+
+    margin-top: 40px;
+}
+
 .single_featured_articles_container{
 
     display: flex;
@@ -143,6 +148,12 @@ body,html{
 
 }
 
+.article_preview_subtitle{
+    margin-top: 20px;
+
+    font-size: 18px;
+}
+
 .single_article{
     display: flex;
     flex-direction: column;
@@ -151,9 +162,11 @@ body,html{
     text-align: center;
     align-items: center;
     width: 400px;
-    height:400px;
+    height:500px;
     margin: 50px;
-    border: 2px solid red;
+    border-radius: 20px;
+
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
 
@@ -177,7 +190,10 @@ body,html{
 
 }
 
-
+.article_preview_title{
+    font-size: 24px;
+    font-weight: bold;
+}
 
 
 
