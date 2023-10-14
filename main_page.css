@@ -259,6 +259,7 @@ body,html{
 ul {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 100px;
 }
 
 
@@ -267,6 +268,9 @@ li {
     flex-wrap: wrap;
     white-space: nowrap;
     flex: 1 100%;
+    font-size: 24px;
+    color: #242582;
+    margin-top: 20px;
 
 }
 
