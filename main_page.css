@@ -225,12 +225,12 @@ input:focus {outline:none!important;}
 
 
 
-.main_header_featured_articles_3:after {
+.main_header_featured_articles_1:after,.main_header_featured_articles_2:after  {
     content:"";
     display:block;
     width: 20em;
-    max-width:70%;
-    border-bottom:  0.3em solid #242582;
+    max-width:50%;
+    border-bottom:  0.3em solid #00FF41;
     margin: 2em auto 0;
 
 }
