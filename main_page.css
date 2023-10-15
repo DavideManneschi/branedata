@@ -351,12 +351,32 @@ and (orientation: portrait) {
         background-color: red;
         color: #fff;
     }
+    .single_button_upper_component_article{
+        width: 300px;
+        font-size: 30px;
+
+    }
 
 
 
     .single_article{
         width: 800px;
         height: 1200px;
+        display: flex;
+        flex-direction: column;
+        gap:1em;
+
+    }
+    .article_preview_title{
+
+        font-size: 50px;
+
+        max-width: 700px;
+    }
+    .article_preview_subtitle{
+
+        font-size: 40px;
+        max-width: 700px;
 
     }
     .first_subheader{
