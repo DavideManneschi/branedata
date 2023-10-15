@@ -1,6 +1,8 @@
 
 body,html{
-    background-image: linear-gradient( 99.9deg, rgba(27,24,31,1) 21.2%, rgba(50,4,89,1) 84.8% );
+
+
+    background-color: black;
 
 }
 
@@ -31,7 +33,7 @@ body,html{
     font-size: 30px;
 
 
-    color: rgb(251, 106, 12);
+    color:  #00FF41;
     text-decoration: none;
 
 }
@@ -60,7 +62,7 @@ body,html{
 
 .upper_component_left,.upper_component_right{
 
-    color: white;
+    color:  #00FF41;
     margin-top:100px
 }
 
@@ -95,8 +97,8 @@ body,html{
 }
 .single_button_upper_component_article{
 
-    background: radial-gradient(circle at 10% 20%, rgb(251, 106, 12) 0%, rgba(50,4,89,1) 89.4%);
-    color: white;
+    background-color: black;
+    color:  #00FF41;
     border: none;
     width: 250px;
     height: 60px;
@@ -107,13 +109,13 @@ body,html{
 
 }
 
-.single_button_upper_component  {
+.single_button_upper_component_article {
     font-size: 24px;
 
 
 }
 
-.single_button_upper_component:hover{
+.single_button_upper_component_article:hover{
     cursor: pointer;
 }
 
@@ -125,7 +127,7 @@ body,html{
 }
 .main_header_featured_articles_1,.main_header_featured_articles_2,.main_header_featured_articles_3{
     margin-top: 40px;
-    color: white;
+    color:  #00FF41;
 
 
 }
@@ -150,7 +152,7 @@ body,html{
     margin-top: 20px;
 
     font-size: 18px;
-    color: white;
+    color:  #00FF41;
 }
 
 .single_article{
@@ -164,31 +166,16 @@ body,html{
     height:600px;
     margin: 50px;
     border-radius: 20px;
-    border: 3px solid  #e1aa12 ;
+
 
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 
-.main_header_featured_articles_1:after { /* this is the border */
-    content:"";
-    display:block;
-    width: 20em;
-    max-width:70%;
-    border-bottom: 0.3em solid rgb(251, 106, 12) ;
-    margin: 2em auto 0;
-}
 
 
-.main_header_featured_articles_2:after {
-    content:"";
-    display:block;
-    width: 20em;
-    max-width:70%;
-    border-bottom:  0.3em solid rgb(193, 11, 135);
-    margin: 2em auto 0;
 
-}
+
 
 .main_header_featured_articles_3:after {
     content:"";
@@ -204,7 +191,7 @@ body,html{
     font-size: 24px;
     font-weight: bold;
     margin-top: 20px;
-    color: white;
+    color:  #00FF41;
 }
 
 
