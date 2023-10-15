@@ -352,9 +352,11 @@ and (orientation: portrait) {
         color: #fff;
     }
 
+
+
     .single_article{
-        width: 600px;
-        height: 700px;
+        width: 800px;
+        height: 1200px;
 
     }
     .first_subheader{
