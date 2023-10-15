@@ -260,10 +260,17 @@ ul {
     display: flex;
     flex-wrap: wrap;
     margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
 }
 
 
 li {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
     display: flex;
     flex-wrap: wrap;
     white-space: nowrap;
@@ -300,6 +307,12 @@ and (orientation: portrait) {
         height: 200px;
         background-color: red;
         color: #fff;
+    }
+
+    .single_article{
+        width: 600px;
+        height: 1000px;
+
     }
 }
 
