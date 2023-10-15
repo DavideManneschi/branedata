@@ -314,6 +314,13 @@ and (orientation: portrait) {
         height: 1000px;
 
     }
+
+    .article_preview_image img{
+        width: 300px;
+        height: 300px;
+    }
+    .article_preview_image{margin-top: -200px;
+    margin-bottom: 200px}
 }
 
 /* For Mobile Landscape View */
