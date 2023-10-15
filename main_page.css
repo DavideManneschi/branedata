@@ -45,6 +45,10 @@ body,html{
     text-decoration: underline ;
 }
 
+.single_button_upper_component_article:hover{
+    text-decoration:underline;
+
+}
 .braneData_upper_component{
 
     height: 700px;
