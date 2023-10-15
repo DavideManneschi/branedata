@@ -353,7 +353,7 @@ and (orientation: portrait) {
     }
     .first_subheader{
 
-        max-width: 200px;
+        max-width: 600px;
     }
 
     .article_preview_image img{
