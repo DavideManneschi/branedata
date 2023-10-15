@@ -45,10 +45,7 @@ body,html{
     text-decoration: underline ;
 }
 
-.single_button_upper_component_article:hover{
-    text-decoration:underline;
 
-}
 .braneData_upper_component{
 
     height: 700px;
@@ -67,7 +64,11 @@ body,html{
     gap:50px
 
 }
+.single_button_upper_component_article:hover{
 
+    background-color: #00FF41;
+    color: black;
+}
 .upper_component_left,.upper_component_right{
 
     color:  #00FF41;
@@ -139,6 +140,7 @@ input:focus {outline:none!important;}
 }
 
 .first_subheader{
+    max-width: 900px;
     font-size: 35px;
 
 }
