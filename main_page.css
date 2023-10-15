@@ -231,7 +231,8 @@ input:focus {outline:none!important;}
     width: 20em;
     max-width:50%;
     border-bottom:  0.3em solid #00FF41;
-    margin: 2em auto 0;
+    margin: 2em auto 30px;
+
 
 }
 
@@ -349,6 +350,10 @@ and (orientation: portrait) {
         width: 600px;
         height: 300px;
 
+    }
+    .first_subheader{
+
+        max-width: 200px;
     }
 
     .article_preview_image img{
