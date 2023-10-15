@@ -7,6 +7,8 @@ body,html{
 
 }
 
+
+
 .braneData_header{
 
 
@@ -51,6 +53,7 @@ body,html{
 
 
 
+
 .braneData_upper_component{
 
     display: flex;
@@ -78,9 +81,52 @@ body,html{
 
 
 
+
 }
+#form{
+    color: white;
+    background-color: black;
+
+}
+.my-form{
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+#form_response{
 
 
+
+}
+#input_terminal{
+
+    background-color: black;
+    border: none;
+    color:#00FF41 ;
+    border: 0;
+    appearance:none;
+    -webkit-appearance: none
+
+}
+input {border:0;outline:0;}
+input:focus {outline:none!important;}
+
+.center_terminal{
+
+
+    margin-top: 200px;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    color: #00FF41}
+
+.center_terminal h1{
+    font-family: 'Matrix', sans-serif;
+}
 
 .main_header{
 
@@ -128,7 +174,7 @@ body,html{
 }
 .main_header_featured_articles_1,.main_header_featured_articles_2,.main_header_featured_articles_3{
     margin-top: 150px;
-    font-size: 70px;
+    font-size: 40px;
     color:  #00FF41;
 
 
@@ -165,7 +211,7 @@ body,html{
     text-align: center;
     align-items: center;
     width: 400px;
-    height:600px;
+    height:500px;
     margin: 50px;
     border-radius: 20px;
 
