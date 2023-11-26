@@ -76,6 +76,12 @@ body,html{
 .image_container img{
     width: 900px;
     height: 700px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-right: 20px;
+
 }
 
 
@@ -170,7 +176,12 @@ and (max-device-width: 640px) {
     .image_container img{
         width: 850px;
         height: 700px;
-        margin: 10px;
+
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-right: 60px;
     }
 
 }
