@@ -170,6 +170,7 @@ and (max-device-width: 640px) {
     .image_container img{
         width: 900px;
         height: 700px;
+        margin: 10px;
     }
 
 }
