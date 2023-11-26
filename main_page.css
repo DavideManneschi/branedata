@@ -328,6 +328,8 @@ li {
 
 }
 
+
+
 @media screen and (min-width: 1024px) {
     .gfg-div {
         background-color: #63c971;
@@ -415,6 +417,10 @@ and (max-device-width: 640px) {
         height: 200px;
         background-color: chartreuse;
         color: black;
+    }
+    .image_container img{
+        width: 200px;
+        height: 300px;
     }
 }
 

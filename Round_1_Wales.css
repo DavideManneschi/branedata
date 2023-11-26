@@ -73,7 +73,10 @@ body,html{
 }
 
 
-
+.image_container img{
+    width: 900px;
+    height: 700px;
+}
 
 
 @media screen and (min-width: 1024px) {
@@ -164,6 +167,11 @@ and (max-device-width: 640px) {
         background-color: chartreuse;
         color: black;
     }
+    .image_container img{
+        width: 800px;
+        height: 700px;
+    }
+
 }
 
 /* For iPhone 4 Portrait or Landscape View */
